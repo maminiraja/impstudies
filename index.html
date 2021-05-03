@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> mywebsite</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<style type="text/css">
+
+      *
+      {
+      	box-sizing: border-box;
+      }
+	  
+	 body
+	{
+		background-color:white;
+		margin: 0px;
+		overflow-x:hidden;
+	}
+	.menu
+	{
+		width: 100%;
+		background-color:#142b47;
+		overflow: auto;
+		
+	
+
+	}
+		
+	.menu ul
+	{
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+		line-height: 60px;
+
+
+		
+
+	}
+	.menu li
+	{
+		float: left;
+		
+		
+		
+	}
+	.menu ul li a
+	{
+		text-decoration: none;
+		width: 170px;
+		display:block;
+		font-size: 18px;
+		font-family: serif;
+		color: white;
+		text-align: center;
+		letter-spacing: 1px;
+		background-color: #142b47;
+		text-transform: uppercase;
+}
+.menu ul li :hover
+{
+	color: black;
+	background-color: yellow;
+	border-radius: 10px;
+}
+button
+{
+	float: right;
+	width: 55px;
+	background-color: orange;
+	margin: 17px 70px 0px 0px;
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+	height: 29px;
+
+}
+
+input[type="text"]
+{
+	float: left;
+	margin: 17px 0px 0px 300px;
+	border: none;
+	border-radius: 3px;
+	width: 15%;
+	height:30px;
+}
+button:hover
+{
+	color: orange;
+	background-color: black;
+}
+
+
+	   
+	   
+.bottom
+	   {
+	   		
+	   		background-color:yellow;
+	   		
+	   		border: 2px solid red;
+	   		margin: 50px;
+
+	   		padding:100px;
+	   		display: inline-block;
+	   		text-align: center;
+	   		overflow:hidden;
+	   		width: 20%;
+	   		height: 350px;
+
+
+	   		
+	   }
+.bottom:hover
+	   {
+	   		background-color: yellow;
+	   		border-radius: 30px;
+	   		opacity: 0.6;
+	   		
+	   }
+img
+	   {
+	   	
+	  
+	   	width:120%;
+	   	height:120px;
+	   	
+	   	background-repeat: no-repeat;
+	   	border-radius:50%;
+	   }
+
+.menu2
+{
+	line-height:45px;
+	font-size: 25px;
+	background-color:slategrey;
+	height:1500px;
+	width: 10%;
+	margin-top:0px;
+	display: block;
+	float: left;
+}	
+.menu2 ul 
+{
+	list-style-type: none;
+	
+	padding-left:  15px;
+}  
+
+  
+.menu2 a
+{
+	text-decoration: none;
+	color: white;
+	
+
+	
+}
+.menu2 ul li:hover
+{
+	background-color: black;
+	text-decoration: underline;
+
+} 
+p
+{
+	line-height: 40px;
+font-size: 25px;
+	font-weight: bolder;
+	margin:-40px 20px 0px 150px;
+	padding: 12px;
+	position: relative;
+	text-indent: 40px;
+}
+h2
+{
+	text-align:center;
+	text-decoration: underline;
+	color: red;
+	font-size: 50px;
+	margin-top: 0px;
+
+}
+	  
+	  @media only screen and (max-width: 629px)
+{
+	.menu     
+	{
+		width: 100%;
+		overflow: hidden;
+		
+		}
+div ul li 
+{
+	width: 100%;
+		float: none;
+		display: block;
+		line-height: 40px;
+		margin: 0px;
+}
+div #x
+{
+	float:right;
+	width: 100%;
+	display:block;
+margin-left: 0px;
+text-align: center;
+}
+div button
+{
+	float:none;
+	width: 100%;
+	display:block;
+	text-align:center; 
+}
+ .menu2
+{
+	width: 25%;
+	height: 3050px;
+
+}
+.menu2 a
+{
+	font-size: 20px;
+}
+.bottom
+{
+	
+	margin-top: 2px;
+	margin-left: 0px;
+	width: 100%;
+	height: 70px;
+	
+
+}
+
+img
+{
+	
+	height: 120px;
+	width: 50%;
+	margin-top: -50px; 
+}
+
+}
+	</style>
+</head>
+
+<body onload="start()">
+	<div class="menu">
+	<ul>
+		<li> <a href="#">HOME</a></li>
+		<li><a href="#">feedback</a></li>
+		<li><a href="#">contact us</a></li>
+		<li><a href="#">about us</a></li>
+		<li><a href="#">Gallery</a></li>
+	</ul>	
+
+<form class="search" >
+	<input type="text" name="" placeholder="search here" id="x">
+	<button>Search </button>
+	
+</form></div>
+<div class="menu2">
+<ul><h3 style="color: purple">NOTES</h3>
+		<li> <a href="#">Class 1-5</a></li>
+		<li><a href="#">Class 6-10</a></li>
+		<li><a href="#">Class 11-12</a></li>
+		<li><a href="#">B.Tech</a></li>
+		<li><a href="#">Degree</a></li>
+
+	</ul>
+</div>
+<h2>Class 1-5</h2>
+<p>In this section we will going to explain all the concepts with neat understanble images and videos.We use the simple language for explaning the subject.The main objective of this tutorial is,you to understand the concepts very quickly,clearly.We are also provide the material which are handwritten.</p>
+<h2>Class 6-10</h2>
+<p>In this section we will going to explain all the concepts with neat understanble images and videos.We use the simple language for explaning the subject.The main objective of this tutorial is,you to understand the concepts very quickly,clearly.We are also provide the material which are handwritteny.</p>
+<h2>Class 11-12</h2>
+<p>In this section we will going to explain all the concepts with neat understanble images and videos.We use the simple language for explaning the subject.The main objective of this tutorial is,you to understand the concepts very quickly,clearly.We are also provide the material which are handwritten.</p>
+<h2>B.TECH</h2>
+<p>In this section we will going to explain all the concepts with neat understanble images and videos.We use the simple language for explaning the subject.The main objective of this tutorial is,you to understand the concepts very quickly,clearly.We are also provide the material which are handwritten.</p>
+<h2>DEGREE</h2>
+<p>In this section we will going to explain all the concepts with neat understanble images and videos.We use the simple language for explaning the subject.The main objective of this tutorial is,you to understand the concepts very quickly,clearly.We are also provide the material which are handwritten.</p>
+
+<div id="pics">
+ <div class="bottom" ><img src="C:\Users\beerappa\Downloads\study time.jpg"><br>MANAGE YOUR TIME</div>
+ <div class="bottom" ><img src="C:\Users\beerappa\Downloads\write.jpg" ><br>MAKE A NOTE</div>
+ <div class="bottom" ><img src="C:\Users\beerappa\Downloads\girls.jpg"><br>DISCUSS WITH FRIENDS</div></div>
+<footer style="background-color: orange;"><h1 style="text-align: center;"><a href="#"><i class="fa fa-instagram"></a></i>
+<a href="#"><i class="fa fa-whatsapp">(+91 9666800736)</i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>For more queries visit:<a href="#" id="a1">www.mypage.in</a></h1></footer>
+<script type="text/javascript">
+	function start() 
+	{
+	
+		open("file:///C:/Sublime%20Text%203/mypage1.html");
+	}
+	
+</script>
+</body>
+</html>
+
